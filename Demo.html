@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Vanilla Web Component Demo</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./CustomWebComponent.js"></script>
+  </head>
+  <body>
+    <h1>Vanilla Web Component Demo</h1>
+
+    <div>
+        <my-custom-div id="square" class="square" size="100px">
+            <p>Fuera de Shadow Dom</p>
+        </my-custom-div>
+        <form id="div-properties-form">
+            <label for="size">Size</label>
+            <input name="size"/>
+            <label for="backgroundColor">Background Color</label>
+            <input name="backgroundColor"/>
+            <label for="textColor">Text Color</label>
+            <input name="textColor"/>
+            <button type="submit">Actualizar</button>
+        </form>
+    </div>
+    <script src="./DivPropertiesForm.js"></script>
+  </body>
+</html>
